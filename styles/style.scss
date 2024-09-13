@@ -89,6 +89,10 @@ section.jeremy {
          cursor: pointer;
          transition: .3s ease-in-out;
       }
+
+      p.active {
+         color: white;
+       }
    }
 }
 

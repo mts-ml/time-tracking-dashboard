@@ -66,6 +66,9 @@ section.jeremy div.period p:hover {
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
+section.jeremy div.period p.active {
+  color: white;
+}
 
 section#work {
   background-color: hsl(15, 100%, 70%);
