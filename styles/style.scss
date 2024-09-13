@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+$Blue: hsl(246, 80%, 60%);
+$Very-dark-blue: hsl(226, 43%, 10%);
+$Dark-blue: hsl(235, 46%, 20%);
+$Desaturated-blue: hsl(235, 45%, 61%);
+$Pale-Blue: hsl(236, 100%, 87%);
+$white-50: rgba(255, 255, 255, 0.5);
+
+$Light-red-work: hsl(15, 100%, 70%);
+$Soft-blue-play: hsl(195, 74%, 62%);
+$Light-red-study: hsl(348, 100%, 68%);
+$Lime-green-exercise: hsl(145, 58%, 55%);
+$Violet-social: hsl(264, 64%, 52%);
+$Soft-orange-self-care: hsl(43, 84%, 65%);
+
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body,
+button,
+textarea,
+input {
+   font-family: "Rubik", sans-serif;
+   font-size: 1.125rem;
+   color: white;
+}
+
+body {
+   background-color: $Very-dark-blue;
+   display: grid;
+   place-items: center;
+   min-height: 100vh;
+}
+
+main {
+   width: 305px;
+}
+
+section.jeremy {
+   background-color: $Dark-blue;
+   border-radius: 10px;
+
+   div.info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      background-color: $Blue;
+      padding: 30px 10px;
+      border-radius: 10px;
+
+      picture {
+         border: 3px solid white;
+         border-radius: 50%;
+
+         img {
+            width: 70px;
+         }
+      }
+
+      span {
+         font-size: .9rem;
+         color: $white-50;
+      }
+
+      h1 {
+         font-size: 1.3rem;
+         color: rgba(255, 255, 255, .9);
+         font-weight: 200;
+      }
+   }
+
+   div.period {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 25px 30px;
+      color: $white-50;
+
+      p:hover {
+         color: white;
+         cursor: pointer;
+         transition: .3s ease-in-out;
+      }
+   }
+}
+
+section#work {
+   background-color: $Light-red-work;
+}
+
+section#play {
+   background-color: $Soft-blue-play;
+}
+
+section#study {
+   background-color: $Light-red-study;
+}
+
+section#exercise {
+   background-color: $Lime-green-exercise;
+}
+
+section#social {
+   background-color: $Violet-social;
+}
+
+section#self-care {
+   background-color: $Soft-orange-self-care;
+}
+
+section.content {
+   position: relative;
+   margin: 2rem 0;
+   border-radius: 10px;
+   padding-top: 40px;
+   overflow: hidden;
+
+   img.obj {
+      position: absolute;
+      right: 17px;
+      top: -8px;
+      z-index: 0;
+   }
+
+   div.container {
+      background-color: $Dark-blue;
+      border-radius: 10px;
+      padding: 30px;
+      position: relative;
+
+      div.activity {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin-bottom: 10px;
+
+         h2 {
+            font-size: 1.125rem;
+         }
+      }
+
+      div.numbers {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+
+         p:first-child {
+            font-size: 2rem;
+            font-weight: 300;
+         }
+
+         p:last-child {
+            font-size: .85rem;
+            color: $white-50;
+         }
+      }
+   }
+
+   div.container:hover {
+      background-color:  hsla(236, 45%, 20%, .9);
+   }
+}

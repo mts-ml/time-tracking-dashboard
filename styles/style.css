@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+button,
+textarea,
+input {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.125rem;
+  color: white;
+}
+
+body {
+  background-color: hsl(226, 43%, 10%);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+main {
+  width: 305px;
+}
+
+section.jeremy {
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 10px;
+}
+section.jeremy div.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: hsl(246, 80%, 60%);
+  padding: 30px 10px;
+  border-radius: 10px;
+}
+section.jeremy div.info picture {
+  border: 3px solid white;
+  border-radius: 50%;
+}
+section.jeremy div.info picture img {
+  width: 70px;
+}
+section.jeremy div.info span {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+section.jeremy div.info h1 {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 200;
+}
+section.jeremy div.period {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 30px;
+  color: rgba(255, 255, 255, 0.5);
+}
+section.jeremy div.period p:hover {
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+section#work {
+  background-color: hsl(15, 100%, 70%);
+}
+
+section#play {
+  background-color: hsl(195, 74%, 62%);
+}
+
+section#study {
+  background-color: hsl(348, 100%, 68%);
+}
+
+section#exercise {
+  background-color: hsl(145, 58%, 55%);
+}
+
+section#social {
+  background-color: hsl(264, 64%, 52%);
+}
+
+section#self-care {
+  background-color: hsl(43, 84%, 65%);
+}
+
+section.content {
+  position: relative;
+  margin: 2rem 0;
+  border-radius: 10px;
+  padding-top: 40px;
+  overflow: hidden;
+}
+section.content img.obj {
+  position: absolute;
+  right: 17px;
+  top: -8px;
+  z-index: 0;
+}
+section.content div.container {
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+}
+section.content div.container div.activity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+section.content div.container div.activity h2 {
+  font-size: 1.125rem;
+}
+section.content div.container div.numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.content div.container div.numbers p:first-child {
+  font-size: 2rem;
+  font-weight: 300;
+}
+section.content div.container div.numbers p:last-child {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+section.content div.container:hover {
+  background-color: hsla(236, 45%, 20%, 0.9);
+}
+
+/*# sourceMappingURL=style.css.map */
