@@ -65,15 +65,18 @@ section.jeremy {
          }
       }
 
-      span {
-         font-size: .9rem;
-         color: $white-50;
-      }
+      div.name {
+         
+         span {
+            font-size: .9rem;
+            color: $white-50;
+         }
 
-      h1 {
-         font-size: 1.3rem;
-         color: rgba(255, 255, 255, .9);
-         font-weight: 200;
+         h1 {
+            font-size: 1.3rem;
+            color: rgba(255, 255, 255, .9);
+            font-weight: 200;
+         }
       }
    }
 
@@ -92,7 +95,7 @@ section.jeremy {
 
       p.active {
          color: white;
-       }
+      }
    }
 }
 
@@ -169,6 +172,6 @@ section.content {
    }
 
    div.container:hover {
-      background-color:  hsla(236, 45%, 20%, .9);
+      background-color: hsla(236, 45%, 20%, .9);
    }
 }

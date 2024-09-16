@@ -45,11 +45,11 @@ section.jeremy div.info picture {
 section.jeremy div.info picture img {
   width: 70px;
 }
-section.jeremy div.info span {
+section.jeremy div.info div.name span {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.5);
 }
-section.jeremy div.info h1 {
+section.jeremy div.info div.name h1 {
   font-size: 1.3rem;
   color: rgba(255, 255, 255, 0.9);
   font-weight: 200;
