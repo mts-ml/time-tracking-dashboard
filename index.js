@@ -6,7 +6,6 @@ function updateData(period) {
       .then(response => response.json())
       .then(data => {
          data.forEach(item => {
-
             // Seleciona a seção pelo ID correspondente ao título em minúsculas e sem espaços
             const section = document.querySelector(`#${item.title.toLowerCase().replace(' ', '-')}`)
 
@@ -57,6 +56,7 @@ periods.forEach(period => {
 });
 
 // Initialize on weekly
-const weeklyPeriod = document.querySelector('.period p:nth-child(2)')
+const weeklyPeriod = document.querySelector('.period > p:nth-child(2)')
+
 weeklyPeriod.classList.add('active')
 updateData('weekly')
