@@ -57,11 +57,11 @@ section.jeremy {
       border-radius: 10px;
 
       picture {
-         border: 3px solid white;
-         border-radius: 50%;
 
          img {
-            width: 70px;
+            border: 3px solid #fff;
+            border-radius: 50%;
+            width: 65px;
          }
       }
 
@@ -148,10 +148,18 @@ section.content {
          justify-content: space-between;
          align-items: center;
          margin-bottom: 10px;
+         transition: .3s ease-in-out;
 
          h2 {
             font-size: 1.125rem;
          }
+
+         img:hover {
+            cursor: pointer;
+            filter: brightness(0) invert(1);
+            transform: scale(1.2);
+         }
+
       }
 
       div.numbers {

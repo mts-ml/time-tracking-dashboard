@@ -38,12 +38,10 @@ section.jeremy div.info {
   padding: 30px 10px;
   border-radius: 10px;
 }
-section.jeremy div.info picture {
-  border: 3px solid white;
-  border-radius: 50%;
-}
 section.jeremy div.info picture img {
-  width: 70px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  width: 65px;
 }
 section.jeremy div.info div.name span {
   font-size: 0.9rem;
@@ -118,9 +116,15 @@ section.content div.container div.activity {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
+  transition: 0.3s ease-in-out;
 }
 section.content div.container div.activity h2 {
   font-size: 1.125rem;
+}
+section.content div.container div.activity img:hover {
+  cursor: pointer;
+  filter: brightness(0) invert(1);
+  transform: scale(1.2);
 }
 section.content div.container div.numbers {
   display: flex;
