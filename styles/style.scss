@@ -66,7 +66,7 @@ section.jeremy {
       }
 
       div.name {
-         
+
          span {
             font-size: .9rem;
             color: $white-50;
@@ -173,5 +173,59 @@ section.content {
 
    div.container:hover {
       background-color: hsla(236, 45%, 20%, .9);
+   }
+}
+
+
+@media screen and (min-width: 768px) {
+   main {
+      width: 680px;
+   }
+
+   section.jeremy {
+
+      div.info {
+         gap: 2rem;
+
+         picture {
+
+            img {
+               width: 90px;
+            }
+         }
+
+         div.name {
+
+            span {
+               font-size: 1.3rem;
+            }
+
+            h1 {
+               font-size: 1.6rem;
+            }
+         }
+      }
+   }
+
+   section.content {
+
+      div.container {
+
+         div.activity {
+            h2 {
+               font-size: 1.4rem;
+            }
+         }
+
+         div.numbers {
+            p:first-child {
+               font-size: 2.7rem;
+            }
+
+            p:last-child {
+               font-size: 1.1rem;
+            }
+         }
+      }
    }
 }
