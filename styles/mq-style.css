@@ -1,0 +1,83 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(5, 220px);
+  grid-template-rows: repeat(2, 223px);
+  gap: 1.5rem;
+  width: 970px;
+}
+
+section.jeremy {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  height: 470px;
+}
+section.jeremy div.info {
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+  height: 320px;
+  padding-left: 30px;
+}
+section.jeremy div.info div.name h1 {
+  font-size: 2rem;
+}
+section.jeremy div.period {
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+section#work {
+  grid-column: 2/3;
+}
+
+section#play {
+  grid-column: 3/4;
+}
+
+section#study {
+  grid-column: 4/5;
+}
+
+section#exercise {
+  grid-column: 2/3;
+}
+
+section#social {
+  grid-column: 3/4;
+}
+
+section#self-care {
+  grid-column: 4/5;
+}
+
+section.content {
+  margin: 0;
+}
+section.content div.container {
+  height: 200px;
+}
+section.content div.container div.activity {
+  margin-bottom: 0px;
+}
+section.content div.container div.activity h2 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+section.content div.container div.numbers {
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding-top: 30px;
+}
+section.content div.container div.numbers p:first-child {
+  font-size: 2.8rem;
+}
+section.content div.container div.numbers p:last-child {
+  font-size: 0.75rem;
+}
+
+/*# sourceMappingURL=mq-style.css.map */
