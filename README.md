@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- [Preview challenge](https://mts-ml.github.io/development/time-tracking-dashboard-main/index.html)
+- [Preview Site](https://mts-ml.github.io/time-tracking-dashboard/)
 
 
 ### Built with
